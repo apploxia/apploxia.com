@@ -24,24 +24,21 @@ export default function Home() {
                 <div className="space-y-4">
                   <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 leading-tight">
                     Galaxy of Apps?<br className="hidden sm:block" /> 
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-600">I'm the Oxygen It Needs</span>
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-600">Let’s Craft Something Fresh.</span>
                   </h1>
                   
                   <p className="text-xl md:text-2xl text-slate-600 font-medium tracking-wide">
-                    Breathing Life into Mobile
+                  Indie mobile app studio. Breathing life into your ideas.
                   </p>
                 </div>
                 
                 <div className="h-px w-40 mx-auto bg-gradient-to-r from-transparent via-slate-300 to-transparent"></div>
-                
-                <div className="space-y-6 max-w-2xl mx-auto">
-                  <p className="text-lg md:text-xl font-normal leading-relaxed">
-                    Apploxia redefines mobile with apps that stand out in a cluttered digital universe. 
+              
+                <p className="text-slate-600 max-w-2xl mx-auto leading-relaxed">
+                Apploxia redefines mobile with apps that stand out in a cluttered digital universe. 
                     Our passion for innovation drives us to create seamless, impactful experiences. 
                     From concept to launch, we’re your gateway to the future of mobile.
-                  </p>
-                  
-                </div>
+                </p>
               </div>
             </div>
           </div>
