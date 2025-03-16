@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from 'next/image'
-import { Mail, Twitter, Github, Instagram } from "lucide-react"
+import { Mail } from "lucide-react"
 
 export function Header() {
   return (
@@ -18,30 +18,17 @@ export function Header() {
           </Link>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2">
-              <a
-                href="https://twitter.com/apploxia"
-                className="group p-2 rounded-full hover:bg-slate-100 transition-colors duration-200"
-                aria-label="Twitter"
-                target="_blank"
-              >
-                <Twitter className="h-5 w-5 text-slate-600 group-hover:text-slate-900" />
-              </a>
-              <a
-                href="https://github.com/apploxia"
-                className="group p-2 rounded-full hover:bg-slate-100 transition-colors duration-200"
-                aria-label="GitHub"
-                target="_blank"
-              >
-                <Github className="h-5 w-5 text-slate-600 group-hover:text-slate-900" />
-              </a>
-              <a
-                href="https://www.instagram.com/apploxia/"
-                className="group p-2 rounded-full hover:bg-slate-100 transition-colors duration-200"
-                aria-label="Instagram"
-                target="_blank"
-              >
-                <Instagram className="h-5 w-5 text-slate-600 group-hover:text-slate-900" />
-              </a>
+              <div className="relative">
+                <Link
+                  href="/ehyp"
+                  className="inline-flex items-center justify-center px-6 py-2 rounded-full font-medium bg-[#52b69a] text-white hover:bg-[#429980] transition-colors min-w-[100px]"
+                >
+                  HYP+
+                </Link>
+                <span className="absolute -top-2 -right-2 px-2 py-0.5 text-xs font-medium bg-blue-500 text-white rounded-full shadow-sm">
+                  New
+                </span>
+              </div>
             </div>
             <a
               href="mailto:hello@apploxia.com"
