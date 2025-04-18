@@ -27,6 +27,7 @@ export default function PrivacyPolicy() {
                     about your privacy rights and how the law protects you.
                   </p>
                 </div>
+                <br />
                 <div className="space-y-4">
                   <h2 className="text-2xl font-bold text-slate-800">The Data We Collect About You</h2>
                   <p className="text-slate-600">
@@ -48,6 +49,7 @@ export default function PrivacyPolicy() {
                     <li>Usage Data includes information about how you use our website and services.</li>
                   </ul>
                 </div>
+                <br />
                 <div className="space-y-4">
                   <h2 className="text-2xl font-bold text-slate-800">How We Use Your Personal Data</h2>
                   <p className="text-slate-600">
@@ -63,6 +65,7 @@ export default function PrivacyPolicy() {
                     <li>Where we need to comply with a legal obligation.</li>
                   </ul>
                 </div>
+                <br />
                 <div className="space-y-4">
                   <h2 className="text-2xl font-bold text-slate-800">Contact Us</h2>
                   <p className="text-slate-600">

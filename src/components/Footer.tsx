@@ -17,6 +17,12 @@ export function Footer() {
             
             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:items-center">
               <nav className="flex flex-row justify-center flex-wrap gap-4 md:gap-0 md:flex-row md:space-x-6">
+              <Link 
+                  href="/support" 
+                  className="text-xs text-slate-500 hover:text-slate-700 transition-colors"
+                >
+                 Support
+                </Link>
                 <Link 
                   href="/privacy-policy" 
                   className="text-xs text-slate-500 hover:text-slate-700 transition-colors"

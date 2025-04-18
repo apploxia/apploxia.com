@@ -29,6 +29,7 @@ export default function LegalStatement() {
                     Apploxias website if you do not accept all of the terms and conditions stated on this page.
                   </p>
                 </div>
+                <br />
                 <div className="space-y-4">
                   <h2 className="text-2xl font-bold text-slate-800">Intellectual Property Rights</h2>
                   <p className="text-slate-600">
@@ -44,6 +45,7 @@ export default function LegalStatement() {
                     <li>Redistribute content from Apploxia (unless content is specifically made for redistribution)</li>
                   </ul>
                 </div>
+                <br />
                 <div className="space-y-4">
                   <h2 className="text-2xl font-bold text-slate-800">Disclaimer</h2>
                   <p className="text-slate-600">
@@ -60,6 +62,7 @@ export default function LegalStatement() {
                     <li>Exclude any of our or your liabilities that may not be excluded under applicable law</li>
                   </ul>
                 </div>
+                <br />
                 <div className="space-y-4">
                   <h2 className="text-2xl font-bold text-slate-800">Contact Us</h2>
                   <p className="text-slate-600">If you have any questions about these terms, please contact us at:</p>
