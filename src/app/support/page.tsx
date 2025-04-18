@@ -38,9 +38,9 @@ export default function Support() {
                     Yes. All data is stored locally on your device. We do not collect or share your personal information with third parties.
                   </p>
 
-                  <h2 className="text-xl font-semibold text-slate-800 mb-4">3. How can I change the app's language?</h2>
+                  <h2 className="text-xl font-semibold text-slate-800 mb-4">3. How can I change the app&apos;s language?</h2>
                   <p className="text-slate-600 mb-6">
-                    The app automatically switches to your device's system language.
+                    The app automatically switches to your device&apos;s system language.
                   </p>
 
                 </div>
